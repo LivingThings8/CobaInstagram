@@ -16,6 +16,7 @@ class PostSeeder extends Seeder
             'user_id' => '1',
             'caption' => 'My Pamiliy in Telkom Bandung of Institute',
             'image' => 'Daspro2017.jpeg',
+            'likes' => '1230',
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);
@@ -24,8 +25,9 @@ class PostSeeder extends Seeder
             'user_id' => '2',
             'caption' => 'Numpang Promosi Ni Anak',
             'image' => 'BPH.jpeg',
+            'likes' => '300',
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
-        ]);
+        ]);v
     }
 }

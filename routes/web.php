@@ -30,6 +30,8 @@ Route::get('/user/profile', 'ProfileController@index')->name('profile');
 
 Route::get('/user/profile/update', 'ProfileController@update')->name('update');
 
+Route::post('/user/profile/save', 'ProfileController@save')->name('save');
+
 Route::get('/user/addpost', 'CommentController@addpost')->name('addpost');
 
 Route::post('/user/createpost', 'CommentController@create')->name('create');

@@ -5,14 +5,14 @@
 <div class="container">
     <div class="row">
         <div class="col-3">
-            <img src="{{ asset(Auth::user()->avatar) }}" alt="" width="200px" height="200px" style="border-radius: 100%;">
+            <img src="../../{{ Auth::user()->avatar }}" alt="" width="200px" height="200px" style="border-radius: 100%;">
         </div>
         <div class="col-7">
             <h3><b>{{ Auth::user()->name }}</b></h3>
             <br>
             <a href="{{ route('update') }}">Edit Profile</a>
             <br>
-            <p>2 <b>Posts</b></p>
+            <p>{{ $count }} <b>Posts</b></p>
             <b>{{ Auth::user()->title }}</b>
             <br>
             <p>{{ Auth::user()->description }}</p>

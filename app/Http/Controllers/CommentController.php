@@ -12,7 +12,7 @@ class CommentController extends Controller
         $comment = new komentar();
         $comment -> user_id = $request -> user_id;
         $comment -> post_id = $request -> post_id;
-        $comment -> comment = $request -> comment; 
+        $comment -> comment = $request -> comment;
         $comment -> save();
         return redirect('home');
     }
@@ -28,7 +28,7 @@ class CommentController extends Controller
 
     public function create(Request $request) {
         $imagename = $request->file('image')->getClientOriginalName();
-        $request['image']->move(base_path() . '/public/images/', $imagename);
+        $request['image']->move(base_path() . '/public/', $imagename);
 
         $post = new post();
         $post->user_id = $request->user_id;

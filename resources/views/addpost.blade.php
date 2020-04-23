@@ -8,7 +8,7 @@
         <input type="hidden" name="user_id" value="{{ Auth::user()->id }}">
         <div class="form-group">
             <label for="caption">Post Caption</label>
-            <input type="text" name="caption" class="form-control" placeholder="Caption">
+            <input type="text" name="caption" class="form-control" placeholder="Caption" required>
         </div>
         <div class="form-group">
             <label for="file">Post Image</label>

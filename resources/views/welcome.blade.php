@@ -82,10 +82,10 @@
 
             <div class="content">
                 <div>
-                    <img src="Logo_EAD.jpg" alt="Logo Ead" height="300px">
+                    <img src="Logo_Daspro.jpg" alt="Logo Ead" height="300px">
                 </div>
                 <div class="title m-b-md">
-                    Enterprise Application Development
+                    Daspro Laboratory
                 </div>
             </div>
         </div>
